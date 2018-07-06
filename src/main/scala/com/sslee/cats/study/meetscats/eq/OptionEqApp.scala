@@ -12,5 +12,5 @@ object OptionEqApp extends App {
   // Some(1) === None
   
   import cats.syntax.option._
-  println(1.some === none[Int])
+  println(1.some =!= none[Int])
 }
