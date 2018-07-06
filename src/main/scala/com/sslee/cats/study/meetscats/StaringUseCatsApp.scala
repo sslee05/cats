@@ -4,10 +4,10 @@ object StaringUseCatsApp extends App {
   
   val usingCase01: String = {
     import cats._
-    import cats.instances.all._
+    import cats.instances.int._
     //import cats.syntax.all._
   
-    val intShow = Show.apply[Int]
+    val intShow = Show[Int]
     intShow show 123
   }
   

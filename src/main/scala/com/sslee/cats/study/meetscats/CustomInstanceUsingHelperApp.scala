@@ -1,6 +1,5 @@
 package com.sslee.cats.study.meetscats
 
-import cats.Show
 import java.util.Date
 
 object CustomInstanceUsingHelperApp extends App {
