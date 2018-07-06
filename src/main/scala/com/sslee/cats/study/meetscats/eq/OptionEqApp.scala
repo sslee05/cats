@@ -7,7 +7,7 @@ object OptionEqApp extends App {
   import cats.instances.option._
   import cats.syntax.eq._
   
-  println((Some(1): Option[Int]) === (None: Option[Int]))
+  println((Some(1): Option[Int]) =!= (None: Option[Int]))
   //compile error 
   // Some(1) === None
   

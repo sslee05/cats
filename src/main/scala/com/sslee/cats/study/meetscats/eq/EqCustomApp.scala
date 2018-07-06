@@ -15,6 +15,6 @@ object EqCustomApp extends App {
   Thread.sleep(1000L)
   val date2 = new Date()
   
-  println(date1 === date2)
+  println(date1 =!= date2)
   println(date1 === date1)
 }

@@ -9,7 +9,7 @@ object ExerciseApp extends App {
   
   val eqInt = Eq[Int]
   println(eqInt.eqv(123, 123))
-  println(eqInt.eqv(123,234))
+  println(eqInt.neqv(123,234))
   //eqInt.eqv(123,"123") compile error
   
   
