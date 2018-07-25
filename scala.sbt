@@ -6,6 +6,7 @@ scalacOptions ++= Seq(
   "-Xfatal-warnings",
   "-Ywarn-unused",
   "-Ywarn-dead-code",
+  "-Ypartial-unification",
   "-feature",
   "-language:_"
 )
