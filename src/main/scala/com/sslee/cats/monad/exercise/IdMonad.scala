@@ -2,7 +2,7 @@ package com.sslee.cats.monad.exercise
 
 object IdMonad extends App {
 
-  import cats.Monad
+  //import cats.Monad
   import cats.Id
 
   def pure[A](a: A): Id[A] = a
