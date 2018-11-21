@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="303446aa-a110-4d5c-a8ed-9dc8f7a35fc7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sbt.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/scala_compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
@@ -26,37 +23,37 @@
     <session id="-1528669315">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="sbt" value="15" />
-          <entry key="sbtShell" value="122" />
+          <entry key="sbtShell" value="141" />
           <entry key="sc" value="622" />
-          <entry key="scala" value="1669" />
+          <entry key="scala" value="5270" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="2291" />
+          <entry key="Scala" value="5892" />
           <entry key="sbt" value="15" />
-          <entry key="sbtShell" value="122" />
+          <entry key="sbtShell" value="141" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="sbt" value="3" />
           <entry key="sc" value="2" />
-          <entry key="scala" value="6" />
+          <entry key="scala" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Scala" value="8" />
+          <entry key="Scala" value="12" />
           <entry key="sbt" value="3" />
         </counts>
       </usages-collector>
@@ -65,28 +62,19 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/EitherCaseApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+            <state relative-caret-position="542">
+              <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.0.0-MF-sources.jar!/cats/syntax/either.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="48" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadApp.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="192">
+              <caret line="267" column="27" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -109,8 +97,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/exercise/IdMonad.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadSyntaxApp.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/EitherCaseApp.scala" />
       </list>
     </option>
   </component>
@@ -120,7 +109,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="951" />
@@ -248,6 +237,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -294,13 +284,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542730103808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542801317412" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Problems" />
@@ -320,7 +309,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MonadConsiderApp">
+  <component name="RunManager" selected="Application.EitherCaseApp">
+    <configuration name="EitherCaseApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.sslee.cats.monad.EitherCaseApp" />
+      <module name="cats" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sslee.cats.monad.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IdMonad" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.sslee.cats.monad.exercise.IdMonad" />
       <module name="cats" />
@@ -364,9 +366,11 @@
       <item itemvalue="Application.MonadCatsApp" />
       <item itemvalue="Application.IdMonad" />
       <item itemvalue="Application.MonadConsiderApp" />
+      <item itemvalue="Application.EitherCaseApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EitherCaseApp" />
         <item itemvalue="Application.MonadConsiderApp" />
         <item itemvalue="Application.IdMonad" />
         <item itemvalue="Application.MonadCatsApp" />
@@ -424,18 +428,20 @@
       <updated>1542387491645</updated>
       <workItem from="1542387492901" duration="855000" />
       <workItem from="1542388865976" duration="103000" />
-      <workItem from="1542724577820" duration="4546000" />
+      <workItem from="1542724577820" duration="4779000" />
+      <workItem from="1542771243807" duration="237000" />
+      <workItem from="1542795172054" duration="5963000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5504000" />
+    <option name="totallyTimeSpent" value="11937000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="951" extended-state="0" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25579977" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21428572" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -443,23 +449,23 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32945284" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2887755" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32945284" />
-      <window_info active="true" anchor="bottom" id="sbt-shell-toolwindow" order="9" visible="true" weight="0.32945284" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.32857144" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32945284" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="12" weight="0.32945284" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Reviews" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -491,13 +497,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadSyntaxApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadSyntaxApp.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsApp.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
@@ -519,17 +519,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="42" selection-start-column="2" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="392">
+          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadCatsWS.sc">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/exercise/EitherApp.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/MonadConsiderApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="403">
+          <caret line="51" column="2" selection-start-line="51" selection-start-column="2" selection-end-line="51" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.typelevel/cats-core_2.12/srcs/cats-core_2.12-1.0.0-MF-sources.jar!/cats/syntax/either.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="267" column="27" selection-start-line="267" selection-start-column="12" selection-end-line="267" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/sslee/cats/monad/EitherCaseApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="135" column="22" selection-start-line="135" selection-start-column="22" selection-end-line="135" selection-end-column="22" />
         </state>
       </provider>
     </entry>
