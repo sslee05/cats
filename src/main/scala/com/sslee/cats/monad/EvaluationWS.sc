@@ -44,3 +44,7 @@ println(cz.value)
 println(cx.value)
 println(cy.value)
 println(cz.value)
+
+import cats.Eval
+val greeting = Eval.always{ println("Step 01"); "Hellow";}.map { s => println("Step 02"); s"$s world"
+;}
